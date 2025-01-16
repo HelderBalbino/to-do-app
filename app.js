@@ -7,10 +7,12 @@ document.addEventListener("DOMContentLoaded", function () {
     // Add an event listener to the add button that listens for the click event. When the add button is clicked, get the text of the input field and remove any leading or trailing whitespace.
     addButton.addEventListener("click", function () {
         const taskText = newToDo.value.trim();
-        // If the input field is not empty, create a new list item with a checkbox input and a label containing the text of the input field. Add the new list item to the to-do list and clear the input field.
+        // If the input field is not empty, create a new list item element and set its innerHTML to the text of the input field. Add the new list item to the to-do list.
         if (taskText !== "") {
             const listItem = document.createElement("li");
-            listItem.innerHTML;
+            listItem.innerHTML = `${taskText}`;
+            toDoList.appendChild(listItem);
+            newToDo.value = "";
         }
     });
 });
