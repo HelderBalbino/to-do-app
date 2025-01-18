@@ -33,3 +33,12 @@ input[type="text"] {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
+button {
+    background-color: #1169e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
