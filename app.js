@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (taskText !== "") {
             const listItem = document.createElement("li");
             //  Add a delete button to the list item that allows the user to delete the to-do item from the list.
-            listItem.innerHTML = `${taskText} <button class="delete-button">Delete</button> <button class="delete-button">Delete</button> `;
+            listItem.innerHTML = `${taskText} <button class="delete-button">Delete</button>`;
             toDoList.appendChild(listItem);
             newToDo.value = "";
             // Add an event listener to the delete button that listens for the click event. When the delete button is clicked, remove the list item from the to-do list.
