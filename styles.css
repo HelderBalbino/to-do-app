@@ -61,8 +61,8 @@ li {
 }
 
 .delete-button {
-    background-color: #ff0000;
-    color: #fff;
+    background-color: #37ff00;
+    color: #ffffff;
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
@@ -70,5 +70,5 @@ li {
 }
 
 .delete-button:hover {
-    background-color: #cc0000;
+    background-color: #67fe8a;
 }

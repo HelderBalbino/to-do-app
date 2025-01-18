@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
             // Create a new list item element and set its innerHTML to the text of the input field.
             const listItem = document.createElement("li");
             //  Add a delete button to the list item that allows the user to delete the to-do item from the list.
-            //  The delete button should be a button element with the class delete-button and the text "Delete".
-            listItem.innerHTML = `${taskText} <button class="delete-button">Delete</button>`;
+            //  The delete button should be a button element with the class delete-button and the text "Done".
+            listItem.innerHTML = `${taskText} <button class="delete-button">Done</button>`;
             // Add the new list item to the to-do list.
             toDoList.appendChild(listItem);
             newToDo.value = "";
