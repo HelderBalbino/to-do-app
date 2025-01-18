@@ -60,7 +60,7 @@ li {
     border-bottom: 1px solid #f4f4f4;
 }
 
-button.delete {
+.delete-button {
     background-color: #ff0000;
     color: #fff;
     border: none;
